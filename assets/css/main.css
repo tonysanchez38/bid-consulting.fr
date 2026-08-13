@@ -155,6 +155,9 @@ p { color: var(--texte); }
 .contact .eyebrow span { background: white; }
 .contact__carte h2 { max-width: 670px; }
 .contact__carte p:last-child { max-width: 650px; margin-bottom: 0; opacity: .86; }
+.contact__action { flex: 0 0 285px; }
+.contact__action .btn { width: 100%; }
+.contact__action p { margin: .7rem 0 0; color: white; font-size: .72rem; line-height: 1.45; text-align: center; opacity: .78; }
 .pied { padding: 2rem 0; border-top: 1px solid var(--bordure); background: var(--fond-profond); }
 .pied__inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
 .pied p { margin: 0; font-size: .75rem; }
@@ -196,6 +199,7 @@ p { color: var(--texte); }
   .methode__grille { gap: 3rem; }
   .citation, .contact__carte { padding: 2rem; }
   .contact__carte { align-items: flex-start; flex-direction: column; gap: 1.5rem; }
+  .contact__action { width: 100%; flex-basis: auto; }
   .pied__inner { flex-direction: column; align-items: flex-start; }
 }
 
