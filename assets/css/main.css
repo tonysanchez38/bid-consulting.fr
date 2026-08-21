@@ -160,6 +160,26 @@ p { color: var(--texte); }
 .tarif small { color: var(--texte); font-size: .72rem; font-weight: 700; }
 .note-tarifs { max-width: 920px; margin: 1.4rem auto 0; color: var(--faible); font-size: .76rem; text-align: center; }
 
+.offre-large { position: relative; display: grid; grid-template-columns: 1.15fr .85fr; gap: 4rem; margin-bottom: 5rem; padding: 2.5rem; border: 1px solid rgba(56,189,248,.42); border-radius: var(--radius); background: linear-gradient(145deg, rgba(30,41,59,.98), rgba(19,29,47,.98)); box-shadow: var(--ombre); }
+.offre-large h3 { margin: 1rem 0; font-size: clamp(1.55rem,3vw,2.1rem); }
+.offre-large ul { margin: 1.5rem 0 0; padding: 1.2rem 0 0; border-top: 1px solid var(--bordure); list-style: none; }
+.offre-large li { margin: .6rem 0; color: var(--texte); font-size: .88rem; }
+.offre-large li::before { content: "✓"; margin-right: .55rem; color: var(--vert); }
+.offre-large li a { color: var(--bleu); text-decoration: underline; text-underline-offset: 3px; }
+.offre-large__prix { align-self: center; padding: 1.5rem; border: 1px solid var(--bordure); border-radius: 12px; background: rgba(15,23,42,.6); }
+.offre-large__prix .btn { width: 100%; margin-top: 1rem; }
+.niveau__badge--statique { position: static; display: inline-flex; float: right; }
+.sous-titre-offres { max-width: 850px; margin-bottom: 2.2rem; }
+.sous-titre-offres h2 { font-size: clamp(1.7rem,3.5vw,2.5rem); }
+
+.developpement { display: grid; grid-template-columns: 1.3fr .7fr; gap: 4rem; padding: 3rem; border: 1px dashed rgba(56,189,248,.45); border-radius: var(--radius); background: repeating-linear-gradient(135deg, rgba(30,41,59,.86), rgba(30,41,59,.86) 16px, rgba(22,32,51,.86) 16px, rgba(22,32,51,.86) 32px); }
+.developpement__note { margin-top: 1.5rem; padding: 1rem; border-left: 3px solid var(--ambre); color: var(--texte); background: rgba(245,158,11,.07); font-size: .82rem; }
+.developpement__liste { align-self: center; padding: 1.5rem; border: 1px solid var(--bordure); border-radius: 12px; background: rgba(15,23,42,.72); }
+.developpement__liste > span { display: inline-flex; padding: .3rem .65rem; border-radius: 999px; color: var(--fond); background: var(--bleu); font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+.developpement__liste ul { margin: 1rem 0 0; padding: 0; list-style: none; }
+.developpement__liste li { margin: .75rem 0; color: var(--texte); font-size: .86rem; }
+.developpement__liste li::before { content: "→"; margin-right: .55rem; color: var(--bleu); }
+
 .a-propos { background: linear-gradient(135deg, var(--fond), var(--fond-profond)); }
 .a-propos__grille { display: grid; grid-template-columns: 1.12fr .88fr; gap: 6rem; align-items: center; }
 .a-propos__lead { color: var(--encre); font-size: 1.08rem; }
@@ -207,6 +227,36 @@ p { color: var(--texte); }
 .erreur-404__contenu h1 { margin-bottom: 1rem; }
 .erreur-404__contenu > p:not(.eyebrow) { max-width: 560px; margin-bottom: 2rem; }
 
+.contact-page { min-height: calc(100vh - 72px); padding-top: 7rem; background: radial-gradient(circle at 12% 10%, rgba(14,165,233,.08), transparent 32%), var(--fond); }
+.contact-page__grille { display: grid; grid-template-columns: .78fr 1.22fr; gap: 5rem; align-items: start; }
+.contact-page__intro { position: sticky; top: 110px; }
+.contact-page__intro h1 { font-size: clamp(2.25rem,5vw,4rem); }
+.contact-direct { margin: 2rem 0; padding: 1.2rem; border: 1px solid rgba(56,189,248,.35); border-radius: 10px; background: var(--bleu-voile); }
+.contact-direct p { margin: 0 0 .3rem; font-size: .8rem; }
+.contact-direct a { color: var(--bleu); font-weight: 750; text-decoration: underline; text-underline-offset: 3px; }
+.contact-reperes { margin-top: 2rem; }
+.contact-reperes h2 { font-size: 1.1rem; }
+.contact-reperes ul { padding-left: 1.1rem; }
+.contact-reperes li { margin: .65rem 0; color: var(--texte); font-size: .85rem; }
+.formulaire-carte { padding: 2.2rem; border: 1px solid var(--bordure); border-radius: var(--radius); background: var(--surface); box-shadow: var(--ombre); }
+.formulaire-carte > h2 { margin-bottom: 2rem; font-size: 1.55rem; }
+.champ, fieldset { margin-bottom: 1.25rem; }
+.champ-double { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.champ-double .champ { min-width: 0; }
+.champ label, fieldset legend { display: block; margin-bottom: .45rem; color: var(--encre); font-size: .82rem; font-weight: 700; }
+.champ input, .champ select, .champ textarea { width: 100%; padding: .8rem .9rem; border: 1px solid var(--bordure); border-radius: 8px; color: var(--encre); background: var(--fond); font: inherit; font-size: .9rem; }
+.champ textarea { resize: vertical; }
+.champ input:focus, .champ select:focus, .champ textarea:focus { outline: 2px solid var(--bleu); outline-offset: 2px; border-color: transparent; }
+fieldset { min-width: 0; padding: 1rem; border: 1px solid var(--bordure); border-radius: 10px; }
+fieldset legend { padding: 0 .4rem; }
+.choix-grille { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem 1rem; }
+.choix-grille label, .consentement { display: flex; align-items: flex-start; gap: .6rem; color: var(--texte); font-size: .82rem; cursor: pointer; }
+.choix-grille input, .consentement input { flex: none; width: 17px; height: 17px; margin-top: .1rem; accent-color: var(--bleu); }
+.consentement { margin: 1.4rem 0 .8rem; color: var(--encre); }
+.notice-donnees { margin-bottom: 1.4rem; color: var(--faible); font-size: .71rem; line-height: 1.6; }
+.notice-donnees a { color: var(--bleu); text-decoration: underline; }
+.statut-formulaire { min-height: 1.2em; margin: .8rem 0 0; color: var(--vert); font-size: .78rem; }
+
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 @media (max-width: 960px) {
@@ -217,6 +267,8 @@ p { color: var(--texte); }
   .cartes-expertise, .niveaux { grid-template-columns: 1fr 1fr; }
   .niveau:last-child { grid-column: 1 / -1; }
   .a-propos__grille, .faq__grille { grid-template-columns: 1fr; gap: 3.5rem; }
+  .offre-large, .developpement, .contact-page__grille { grid-template-columns: 1fr; gap: 2.5rem; }
+  .contact-page__intro { position: static; }
   .topbar__inner { min-height: 64px; }
   .nav-toggle { display: block; }
   .nav { position: absolute; top: 64px; left: 0; right: 0; display: none; flex-direction: column; align-items: stretch; padding: 1rem; border-bottom: 1px solid var(--bordure); background: var(--fond); }
@@ -236,6 +288,8 @@ p { color: var(--texte); }
   .methode__grille { gap: 3rem; }
   .citation, .contact__carte { padding: 2rem; }
   .preuve { padding: 1.7rem; }
+  .offre-large, .developpement, .formulaire-carte { padding: 1.5rem; }
+  .champ-double, .choix-grille { grid-template-columns: 1fr; }
   .contact__carte { align-items: flex-start; flex-direction: column; gap: 1.5rem; }
   .contact__action { width: 100%; flex-basis: auto; }
   .pied__inner { flex-direction: column; align-items: flex-start; }

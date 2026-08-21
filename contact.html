@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Présentez votre métier, votre méthode actuelle et votre besoin à Bid Consulting pour cadrer un site vitrine ou un outil de chiffrage personnalisé." />
+    <meta name="author" content="Tony Sanchez" />
+    <!-- Conception et direction éditoriale : Tony Sanchez. -->
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Contact & cadrage du besoin | Bid Consulting</title>
+    <link rel="canonical" href="https://www.bid-consulting.fr/contact.html" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script data-goatcounter="https://bid-consulting.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/contact.js" defer></script>
+  </head>
+  <body class="page-contact">
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="topbar">
+      <div class="conteneur topbar__inner">
+        <a class="marque" href="index.html" aria-label="Bid Consulting, accueil"><svg class="marque__logo" viewBox="0 0 48 48" aria-hidden="true"><path d="M11 8h16c7 0 11 3.8 11 9.3 0 3.3-1.7 5.9-4.5 7.3 3.7 1.2 5.8 4.1 5.8 7.6C39.3 38.7 34.6 42 27 42H11V8Zm8 7v6.5h7.4c2.3 0 3.7-1.1 3.7-3.2 0-2.2-1.4-3.3-3.9-3.3H19Zm0 13.2V35h8.3c2.7 0 4.1-1.1 4.1-3.4 0-2.2-1.5-3.4-4.3-3.4H19Z" /></svg><span><strong>Bid</strong> Consulting</span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navigation"><span class="sr-only">Ouvrir le menu</span><span></span><span></span><span></span></button>
+        <nav id="navigation" class="nav" aria-label="Navigation principale"><a class="nav__lien" href="index.html#expertise">Notre différence</a><a class="nav__lien" href="index.html#offres">Offres & tarifs</a><a class="nav__lien" href="index.html#methode">Méthode</a><a class="nav__lien nav__lien--cta" href="mailto:contact@bid-consulting.fr">Écrire directement</a></nav>
+      </div>
+    </header>
+
+    <main id="contenu" class="section contact-page">
+      <div class="conteneur contact-page__grille">
+        <section class="contact-page__intro" aria-labelledby="titre-contact">
+          <p class="eyebrow"><span></span> Premier cadrage</p>
+          <h1 id="titre-contact">Parlez-nous de votre métier et de la décision à simplifier.</h1>
+          <p>Ces quelques questions servent à comprendre votre fonctionnement actuel, vos frais, le résultat attendu et le niveau d’automatisation réellement utile.</p>
+          <div class="contact-direct"><p>Vous préférez écrire librement&nbsp;?</p><a href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a></div>
+          <div class="contact-reperes"><h2>Avant de commencer</h2><ul><li>Ne transmettez aucune donnée confidentielle ou sensible dans ce premier message.</li><li>Un exemple de projet pourra être demandé dans un second temps.</li><li>Le prix et le périmètre sont confirmés par devis avant tout engagement.</li></ul></div>
+        </section>
+
+        <section class="formulaire-carte" aria-labelledby="titre-formulaire">
+          <h2 id="titre-formulaire">Votre besoin en quelques questions</h2>
+          <form id="formulaire-contact" action="mailto:contact@bid-consulting.fr" method="post" enctype="text/plain">
+            <div class="champ-double"><div class="champ"><label for="entreprise">Entreprise *</label><input id="entreprise" name="entreprise" autocomplete="organization" required /></div><div class="champ"><label for="email">E-mail professionnel *</label><input id="email" name="email" type="email" autocomplete="email" required /></div></div>
+            <div class="champ"><label for="metier">Quel est votre métier ou votre activité&nbsp;? *</label><input id="metier" name="metier" required placeholder="Ex. serrurerie, plomberie, maintenance industrielle…" /></div>
+            <div class="champ"><label for="offre">Quelle offre vous intéresse&nbsp;? *</label><select id="offre" name="offre" required><option value="">Choisir une offre</option><option value="site-vitrine">Site vitrine — 289 € HT la première année</option><option value="excel-base">Excel Base — 89 € HT</option><option value="excel-analyse">Excel Analyse — 129 € HT</option><option value="excel-bom">Excel BOM — 169 € HT</option><option value="conseil">Conseil / besoin à préciser</option><option value="futur">Information sur l’outil en ligne en développement</option></select></div>
+            <div class="champ"><label for="outil-actuel">Comment chiffrez-vous aujourd’hui&nbsp;? *</label><textarea id="outil-actuel" name="outil_actuel" rows="3" required placeholder="Ex. papier, Excel, logiciel de devis, expérience, coefficient unique…"></textarea></div>
+            <div class="champ"><label for="difficulte">Quelle difficulté voulez-vous résoudre&nbsp;? *</label><textarea id="difficulte" name="difficulte" rows="3" required placeholder="Ex. frais oubliés, prix difficile à défendre, marge inconnue, quantitatifs trop longs…"></textarea></div>
+            <fieldset><legend>Quels coûts savez-vous déjà identifier&nbsp;?</legend><div class="choix-grille"><label><input type="checkbox" name="couts" value="main-d'oeuvre" /> Main-d’œuvre</label><label><input type="checkbox" name="couts" value="fournitures" /> Fournitures</label><label><input type="checkbox" name="couts" value="consommables" /> Consommables</label><label><input type="checkbox" name="couts" value="deplacements" /> Déplacements</label><label><input type="checkbox" name="couts" value="structure" /> Frais de structure</label><label><input type="checkbox" name="couts" value="autres" /> Autres frais</label></div></fieldset>
+            <fieldset><legend>Quels résultats voulez-vous voir immédiatement&nbsp;?</legend><div class="choix-grille"><label><input type="checkbox" name="resultats" value="coefficients" /> Coefficients de vente</label><label><input type="checkbox" name="resultats" value="cout-revient" /> Coût de revient</label><label><input type="checkbox" name="resultats" value="rentabilite" /> Rentabilité</label><label><input type="checkbox" name="resultats" value="negociation" /> Marge de négociation</label><label><input type="checkbox" name="resultats" value="bom" /> Quantitatifs / BOM</label><label><input type="checkbox" name="resultats" value="environnement" /> Indicateur environnemental futur</label></div></fieldset>
+            <div class="champ-double"><div class="champ"><label for="exemple">Avez-vous un exemple de projet&nbsp;?</label><select id="exemple" name="exemple"><option value="non">Pas encore</option><option value="oui">Oui, disponible après le premier échange</option></select></div><div class="champ"><label for="delai">Délai souhaité</label><input id="delai" name="delai" placeholder="Ex. sous 2 semaines" /></div></div>
+            <div class="champ"><label for="precision">Une précision utile&nbsp;?</label><textarea id="precision" name="precision" rows="3" placeholder="Objectif, contrainte, type de clients, volume de devis…"></textarea></div>
+            <label class="consentement"><input id="accord" type="checkbox" required /> J’accepte que ces informations soient utilisées pour répondre à ma demande. *</label>
+            <p class="notice-donnees">Le formulaire n’enregistre rien sur le site. Le bouton ouvre votre messagerie et prépare un e-mail vers l’adresse professionnelle. Les informations reçues sont utilisées pour répondre à la demande et préparer, si nécessaire, une proposition commerciale. Vous pouvez demander leur accès, rectification ou suppression à <a href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a>.</p>
+            <button class="btn btn--primaire" type="submit">Préparer mon e-mail <span>→</span></button>
+            <p id="statut-formulaire" class="statut-formulaire" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="pied"><div class="conteneur pied__inner"><p>Bid Consulting · Chiffrage, rentabilité et outils métier.</p><a class="pied__email" href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a><nav class="pied__nav" aria-label="Navigation secondaire"><a href="index.html">Accueil</a><a href="index.html#offres">Tarifs</a><a href="documents/CGV_B2B_Bid_Consulting.pdf" target="_blank" rel="noopener">CGV B2B</a></nav></div></footer>
+  </body>
+</html>
