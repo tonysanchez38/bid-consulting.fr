@@ -72,8 +72,10 @@ p { color: var(--texte); }
 .btn--clair { color: var(--fond); background: var(--encre); white-space: nowrap; }
 .hero__preuves { display: flex; flex-wrap: wrap; gap: 1.2rem; margin: 0; padding: 0; list-style: none; color: var(--texte); font-size: .85rem; }
 .hero__preuves span { margin-right: .3rem; color: var(--vert); }
-.hero__repere { max-width: 660px; margin: -.35rem 0 1.4rem; padding: .8rem 1rem; border-left: 3px solid var(--bleu); color: var(--texte); background: rgba(56,189,248,.08); font-size: .88rem; }
+.hero__repere { display: grid; gap: .25rem; max-width: 660px; margin: -.35rem 0 1.4rem; padding: .8rem 1rem; border-left: 3px solid var(--bleu); color: var(--texte); background: rgba(56,189,248,.08); font-size: .88rem; }
 .hero__repere strong { color: var(--encre); }
+.hero__repere > span { font-size: .78rem; line-height: 1.5; }
+.hero__repere b { color: var(--encre); }
 .halo { position: absolute; border-radius: 50%; filter: blur(2px); opacity: .42; pointer-events: none; }
 .halo--un { right: -200px; top: 70px; width: 500px; height: 500px; border: 1px solid rgba(56,189,248,.18); box-shadow: inset 0 0 100px rgba(56,189,248,.05); }
 .halo--deux { left: -250px; bottom: -340px; width: 600px; height: 600px; border: 1px solid rgba(56,189,248,.08); }
@@ -143,6 +145,7 @@ p { color: var(--texte); }
 .niveaux { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; align-items: stretch; }
 .niveau { position: relative; display: flex; flex-direction: column; padding: 2rem; border: 1px solid var(--bordure); border-radius: var(--radius); background: var(--surface); }
 .niveau--accent { border-color: rgba(56,189,248,.52); box-shadow: 0 0 55px rgba(14,165,233,.08); }
+.niveau--recommandee { z-index: 1; border-width: 2px; border-color: var(--bleu); background: linear-gradient(155deg, rgba(21,50,73,.98), rgba(19,29,47,.98)); box-shadow: 0 18px 65px rgba(14,165,233,.17); transform: translateY(-12px); }
 .niveau--futur { background: repeating-linear-gradient(135deg, rgba(30,41,59,.85), rgba(30,41,59,.85) 14px, rgba(22,32,51,.85) 14px, rgba(22,32,51,.85) 28px); }
 .niveau__badge { position: absolute; top: 1.5rem; right: 1.5rem; padding: .25rem .55rem; border: 1px solid var(--bordure); border-radius: 999px; color: var(--texte); font-size: .65rem; font-weight: 700; }
 .niveau--accent .niveau__badge { color: var(--bleu); border-color: rgba(56,189,248,.4); background: var(--bleu-voile); }
@@ -154,11 +157,24 @@ p { color: var(--texte); }
 .niveau__lien { display: inline-flex; align-items: center; gap: .55rem; margin-top: auto; padding-top: 1.5rem; color: var(--bleu); font-size: .86rem; font-weight: 800; }
 .niveau__lien span { transition: transform .2s ease; }
 .niveau__lien:hover span { transform: translateX(4px); }
+.niveau__lien--primaire { justify-content: center; margin-top: 1.5rem; padding: .85rem 1rem; border-radius: 9px; color: #07111f; background: var(--bleu); }
+.niveau__lien--primaire:hover { color: #07111f; background: #7dd3fc; }
+.ecart-prix { margin: -.5rem 0 1rem; padding: .7rem .8rem; border-left: 3px solid var(--vert); color: var(--encre) !important; background: rgba(34,197,94,.08); font-weight: 700; }
+.definition-bom { display: grid; gap: .25rem; margin: .9rem 0 .2rem; padding: .8rem; border: 1px solid rgba(56,189,248,.28); border-radius: 9px; background: var(--bleu-voile); }
+.definition-bom strong { color: var(--bleu); font-size: .8rem; }
+.definition-bom span { color: var(--texte); font-size: .76rem; line-height: 1.5; }
 .tarif { display: flex; align-items: baseline; flex-wrap: wrap; gap: .35rem .55rem; margin: .25rem 0 1.25rem; padding: 1rem 0; border-block: 1px solid var(--bordure); }
 .tarif span { flex-basis: 100%; color: var(--texte); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
 .tarif strong { color: var(--encre); font: 750 2.2rem/1 ui-monospace, Consolas, monospace; letter-spacing: -.06em; }
 .tarif small { color: var(--texte); font-size: .72rem; font-weight: 700; }
 .note-tarifs { max-width: 920px; margin: 1.4rem auto 0; color: var(--faible); font-size: .76rem; text-align: center; }
+.comparatif-offres { display: grid; grid-template-columns: 1fr auto 1.15fr auto 1fr; gap: .9rem; align-items: center; margin: 2rem 0 0; padding: 1rem; border: 1px solid var(--bordure); border-radius: 12px; background: rgba(15,23,42,.55); }
+.comparatif-offres p { display: grid; gap: .2rem; margin: 0; text-align: center; }
+.comparatif-offres strong { color: var(--encre); font: 750 1.1rem ui-monospace, Consolas, monospace; }
+.comparatif-offres span { color: var(--texte); font-size: .76rem; }
+.comparatif-offres i { color: var(--faible); font-style: normal; }
+.comparatif-offres__cible { padding: .8rem; border-radius: 8px; background: var(--bleu-voile); }
+.comparatif-offres__cible strong { color: var(--bleu); }
 
 .offre-large { position: relative; display: grid; grid-template-columns: 1.15fr .85fr; gap: 4rem; margin-bottom: 5rem; padding: 2.5rem; border: 1px solid rgba(56,189,248,.42); border-radius: var(--radius); background: linear-gradient(145deg, rgba(30,41,59,.98), rgba(19,29,47,.98)); box-shadow: var(--ombre); }
 .offre-large h3 { margin: 1rem 0; font-size: clamp(1.55rem,3vw,2.1rem); }
@@ -168,9 +184,20 @@ p { color: var(--texte); }
 .offre-large li a { color: var(--bleu); text-decoration: underline; text-underline-offset: 3px; }
 .offre-large__prix { align-self: center; padding: 1.5rem; border: 1px solid var(--bordure); border-radius: 12px; background: rgba(15,23,42,.6); }
 .offre-large__prix .btn { width: 100%; margin-top: 1rem; }
+.renouvellement-titre { margin: 0 0 .7rem; color: var(--encre); font-size: .86rem; }
+.renouvellement-options { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem; }
+.renouvellement-options p { display: grid; gap: .2rem; margin: 0; padding: .75rem; border: 1px solid var(--bordure); border-radius: 9px; }
+.renouvellement-options strong { color: var(--encre); font-size: 1rem; }
+.renouvellement-options span { color: var(--faible); font-size: .68rem; line-height: 1.4; }
+.renouvellement-options__avantage { border-color: rgba(34,197,94,.45) !important; background: rgba(34,197,94,.07); }
+.renouvellement-options__avantage strong { color: var(--vert); }
+.renouvellement-inclus { margin: .9rem 0 0; padding: .7rem .8rem; border-left: 3px solid var(--bleu); color: var(--texte); background: var(--bleu-voile); font-size: .78rem; }
 .niveau__badge--statique { position: static; display: inline-flex; float: right; }
-.sous-titre-offres { max-width: 850px; margin-bottom: 2.2rem; }
+.sous-titre-offres { max-width: 950px; margin-bottom: 2.2rem; }
 .sous-titre-offres h2 { font-size: clamp(1.7rem,3.5vw,2.5rem); }
+.note-licence { display: grid; gap: .35rem; margin-top: 1.4rem; padding: 1rem 1.1rem; border: 1px solid rgba(245,158,11,.34); border-radius: 10px; background: rgba(245,158,11,.06); }
+.note-licence strong { color: var(--encre); }
+.note-licence span { color: var(--texte); font-size: .82rem; }
 
 .developpement { display: grid; grid-template-columns: 1.3fr .7fr; gap: 4rem; padding: 3rem; border: 1px dashed rgba(56,189,248,.45); border-radius: var(--radius); background: repeating-linear-gradient(135deg, rgba(30,41,59,.86), rgba(30,41,59,.86) 16px, rgba(22,32,51,.86) 16px, rgba(22,32,51,.86) 32px); }
 .developpement__note { margin-top: 1.5rem; padding: 1rem; border-left: 3px solid var(--ambre); color: var(--texte); background: rgba(245,158,11,.07); font-size: .82rem; }
@@ -265,6 +292,7 @@ fieldset legend { padding: 0 .4rem; }
   .pilotage { max-width: 600px; }
   .methode__grille { gap: 4rem; }
   .cartes-expertise, .niveaux { grid-template-columns: 1fr 1fr; }
+  .niveau--recommandee { transform: none; }
   .niveau:last-child { grid-column: 1 / -1; }
   .a-propos__grille, .faq__grille { grid-template-columns: 1fr; gap: 3.5rem; }
   .offre-large, .developpement, .contact-page__grille { grid-template-columns: 1fr; gap: 2.5rem; }
@@ -289,6 +317,9 @@ fieldset legend { padding: 0 .4rem; }
   .citation, .contact__carte { padding: 2rem; }
   .preuve { padding: 1.7rem; }
   .offre-large, .developpement, .formulaire-carte { padding: 1.5rem; }
+  .renouvellement-options { grid-template-columns: 1fr; }
+  .comparatif-offres { grid-template-columns: 1fr; }
+  .comparatif-offres i { transform: rotate(90deg); text-align: center; }
   .champ-double, .choix-grille { grid-template-columns: 1fr; }
   .contact__carte { align-items: flex-start; flex-direction: column; gap: 1.5rem; }
   .contact__action { width: 100%; flex-basis: auto; }
