@@ -41,7 +41,7 @@ form?.addEventListener("submit", (event) => {
     "Cordialement"
   ];
 
-  const subject = `Demande Bid Consulting — ${selectedText}`;
+  const subject = `Demande Bid Consulting : ${selectedText}`;
   const mailto = `mailto:contact@bid-consulting.fr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
   formStatus.textContent = "Votre messagerie va s’ouvrir avec le message préparé. Vérifiez-le puis cliquez sur Envoyer.";
   window.location.href = mailto;
