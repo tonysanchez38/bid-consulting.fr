@@ -271,6 +271,11 @@ p { color: var(--texte); }
 .contenu-long h3 { margin: 2rem 0 .7rem; }
 .encadre-conseil { margin: 2rem 0; padding: 1.3rem 1.5rem; border-left: 4px solid var(--bleu); background: var(--bleu-voile); }
 .encadre-conseil strong { color: var(--encre); }
+.mentions-hero { padding-bottom: 4rem; }
+.mentions-contenu a { color: var(--bleu); text-decoration: underline; text-underline-offset: 3px; }
+.fiche-legale { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; margin: 1.5rem 0 2rem; padding: 1.5rem; border: 1px solid var(--bordure); border-radius: var(--radius); background: var(--surface); }
+.fiche-legale p { margin: .55rem 0; }
+.fiche-legale strong { color: var(--encre); }
 .offre-cible { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; margin-top: 2.5rem; padding: 2rem; border: 2px solid var(--bleu); border-radius: var(--radius); background: linear-gradient(155deg, rgba(21,50,73,.98), rgba(19,29,47,.98)); }
 .offre-cible h2 { margin: .4rem 0 .8rem; }
 .offre-cible .tarif { min-width: 190px; margin: 0; }
@@ -343,6 +348,7 @@ fieldset legend { padding: 0 .4rem; }
   .bandeau__inner { flex-direction: column; gap: .4rem; padding-block: 1.2rem; }
   .bandeau i { display: none; }
   .cartes-expertise, .niveaux { grid-template-columns: 1fr; }
+  .fiche-legale { grid-template-columns: 1fr; padding: 1.2rem; }
   .niveau:last-child { grid-column: auto; }
   .methode__grille { gap: 3rem; }
   .citation, .contact__carte { padding: 2rem; }
