@@ -3,29 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="Le site Bid Consulting est temporairement en maintenance. Retour très prochainement." />
     <meta name="theme-color" content="#0f172a" />
-    <title>Page introuvable | Bid Consulting</title>
-    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Maintenance en cours | Bid Consulting</title>
+    <link rel="canonical" href="https://www.bid-consulting.fr/" />
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --fond: #0f172a;
+        --fond-profond: #0a1020;
+        --surface: #1e293b;
+        --bordure: #334155;
+        --bleu: #38bdf8;
+        --encre: #f1f5f9;
+        --texte: #94a3b8;
+        --ambre: #fbbf24;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { height: 100%; }
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 16px;
+        background: radial-gradient(ellipse at top, #13213d 0%, var(--fond) 55%, var(--fond-profond) 100%);
+        color: var(--texte);
+        font-family: "Inter", "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        width: 100%;
+        max-width: 560px;
+        padding: 40px 32px;
+        background: rgba(30, 41, 59, 0.72);
+        border: 1px solid var(--bordure);
+        border-radius: 14px;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+        text-align: center;
+      }
+      .marque {
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        color: var(--encre);
+        font-size: 1.05rem;
+        margin-bottom: 28px;
+      }
+      .marque span { color: var(--bleu); }
+      .statut {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 14px;
+        border-radius: 999px;
+        background: rgba(251, 191, 36, 0.12);
+        color: var(--ambre);
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      .statut::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--ambre);
+        animation: pulse 1.8s ease-in-out infinite;
+      }
+      @keyframes pulse { 50% { opacity: 0.3; } }
+      @media (prefers-reduced-motion: reduce) { .statut::before { animation: none; } }
+      h1 {
+        color: var(--encre);
+        font-size: clamp(1.6rem, 5vw, 2.1rem);
+        line-height: 1.25;
+        margin-bottom: 16px;
+      }
+      p { margin-bottom: 12px; }
+      .contact {
+        margin-top: 28px;
+        padding-top: 20px;
+        border-top: 1px solid var(--bordure);
+        font-size: 0.95rem;
+      }
+      a { color: var(--bleu); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+    </style>
   </head>
-  <body class="page-erreur">
-    <main class="erreur-404">
-      <div class="conteneur erreur-404__contenu">
-        <a class="marque" href="index.html" aria-label="Bid Consulting, accueil">
-          <svg class="marque__logo" viewBox="0 0 48 48" aria-hidden="true">
-            <path d="M11 8h16c7 0 11 3.8 11 9.3 0 3.3-1.7 5.9-4.5 7.3 3.7 1.2 5.8 4.1 5.8 7.6C39.3 38.7 34.6 42 27 42H11V8Zm8 7v6.5h7.4c2.3 0 3.7-1.1 3.7-3.2 0-2.2-1.4-3.3-3.9-3.3H19Zm0 13.2V35h8.3c2.7 0 4.1-1.1 4.1-3.4 0-2.2-1.5-3.4-4.3-3.4H19Z" />
-          </svg>
-          <span><strong>Bid</strong> Consulting</span>
-        </a>
-        <p class="eyebrow"><span></span> Erreur 404</p>
-        <h1>Cette page n’existe pas.</h1>
-        <p>L’adresse demandée est incorrecte ou la page a été déplacée.</p>
-        <div class="hero__actions">
-          <a class="btn btn--primaire" href="index.html">Retour à l’accueil</a>
-          <a class="btn btn--secondaire" href="contact.html">Contacter Bid Consulting</a>
-        </div>
-      </div>
+  <body>
+    <main>
+      <div class="marque">Bid <span>Consulting</span></div>
+      <div class="statut">Maintenance en cours</div>
+      <h1>Le site revient très bientôt.</h1>
+      <p>Nous remettons l’outil sur l’établi pour l’ajuster et le rendre plus solide.</p>
+      <p>Merci de votre patience.</p>
+      <p class="contact">Une demande urgente ? Écrivez à <a href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a></p>
     </main>
   </body>
 </html>

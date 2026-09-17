@@ -3,89 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Mentions légales de TS Bid Consulting, entreprise individuelle de conseil, chiffrage de projets, analyse de rentabilité et création d'outils métier." />
-    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Le site Bid Consulting est temporairement en maintenance. Retour très prochainement." />
     <meta name="theme-color" content="#0f172a" />
-    <title>Mentions légales | TS Bid Consulting</title>
-    <link rel="canonical" href="https://www.bid-consulting.fr/mentions-legales.html" />
-    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "TS Bid Consulting",
-        "alternateName": "Bid Consulting",
-        "url": "https://www.bid-consulting.fr/",
-        "email": "contact@bid-consulting.fr",
-        "identifier": "SIREN 107 430 423",
-        "taxID": "107430423",
-        "vatID": "FR51107430423",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Place Robert Schuman",
-          "postalCode": "38000",
-          "addressLocality": "Grenoble",
-          "addressCountry": "FR"
-        },
-        "description": "Conseil pour les affaires, aide à la décision économique, chiffrage budgétaire, analyse de rentabilité et création d'outils métier."
+    <title>Maintenance en cours | Bid Consulting</title>
+    <link rel="canonical" href="https://www.bid-consulting.fr/" />
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --fond: #0f172a;
+        --fond-profond: #0a1020;
+        --surface: #1e293b;
+        --bordure: #334155;
+        --bleu: #38bdf8;
+        --encre: #f1f5f9;
+        --texte: #94a3b8;
+        --ambre: #fbbf24;
       }
-    </script>
-    <script data-goatcounter="https://bid-consulting.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-    <script src="assets/js/main.js" defer></script>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { height: 100%; }
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 16px;
+        background: radial-gradient(ellipse at top, #13213d 0%, var(--fond) 55%, var(--fond-profond) 100%);
+        color: var(--texte);
+        font-family: "Inter", "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        width: 100%;
+        max-width: 560px;
+        padding: 40px 32px;
+        background: rgba(30, 41, 59, 0.72);
+        border: 1px solid var(--bordure);
+        border-radius: 14px;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+        text-align: center;
+      }
+      .marque {
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        color: var(--encre);
+        font-size: 1.05rem;
+        margin-bottom: 28px;
+      }
+      .marque span { color: var(--bleu); }
+      .statut {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 14px;
+        border-radius: 999px;
+        background: rgba(251, 191, 36, 0.12);
+        color: var(--ambre);
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      .statut::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--ambre);
+        animation: pulse 1.8s ease-in-out infinite;
+      }
+      @keyframes pulse { 50% { opacity: 0.3; } }
+      @media (prefers-reduced-motion: reduce) { .statut::before { animation: none; } }
+      h1 {
+        color: var(--encre);
+        font-size: clamp(1.6rem, 5vw, 2.1rem);
+        line-height: 1.25;
+        margin-bottom: 16px;
+      }
+      p { margin-bottom: 12px; }
+      .contact {
+        margin-top: 28px;
+        padding-top: 20px;
+        border-top: 1px solid var(--bordure);
+        font-size: 0.95rem;
+      }
+      a { color: var(--bleu); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+    </style>
   </head>
-  <body class="page-service">
-    <a class="skip-link" href="#contenu">Aller au contenu</a>
-    <header class="topbar"><div class="conteneur topbar__inner"><a class="marque" href="index.html" aria-label="Bid Consulting, accueil"><svg class="marque__logo" viewBox="0 0 48 48" aria-hidden="true"><path d="M11 8h16c7 0 11 3.8 11 9.3 0 3.3-1.7 5.9-4.5 7.3 3.7 1.2 5.8 4.1 5.8 7.6C39.3 38.7 34.6 42 27 42H11V8Zm8 7v6.5h7.4c2.3 0 3.7-1.1 3.7-3.2 0-2.2-1.4-3.3-3.9-3.3H19Zm0 13.2V35h8.3c2.7 0 4.1-1.1 4.1-3.4 0-2.2-1.5-3.4-4.3-3.4H19Z" /></svg><span><strong>Bid</strong> Consulting</span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navigation"><span class="sr-only">Ouvrir le menu</span><span></span><span></span><span></span></button><nav id="navigation" class="nav" aria-label="Navigation principale"><a class="nav__lien" href="outil-chiffrage-artisan.html">Outils de chiffrage</a><a class="nav__lien" href="site-vitrine-artisan.html">Sites vitrines</a><a class="nav__lien" href="index.html#offres">Tarifs</a><a class="nav__lien nav__lien--cta" href="contact.html">Contact</a></nav></div></header>
-
-    <main id="contenu">
-      <section class="service-hero mentions-hero"><div class="conteneur"><p class="fil-ariane"><a href="index.html">Accueil</a> → Mentions légales</p><div class="service-hero__grille"><div><p class="eyebrow"><span></span> Informations professionnelles</p><h1>Mentions légales de <em>TS Bid Consulting.</em></h1><p class="service-hero__texte">Cette page identifie l'entreprise qui édite le site bid-consulting.fr, ses prestataires techniques et les règles applicables à l'utilisation du site.</p></div><aside class="service-repere"><p class="micro">IDENTIFICATION</p><h2>TS Bid Consulting</h2><ul><li>Entrepreneur individuel</li><li>SIREN 107 430 423</li><li>SIRET 107 430 423 00015</li><li>Code APE 7022Z</li></ul></aside></div></div></section>
-
-      <section class="section"><div class="conteneur contenu-long mentions-contenu">
-        <h2>Éditeur du site</h2>
-        <div class="fiche-legale"><p><strong>Nom commercial utilisé :</strong> TS Bid Consulting</p><p><strong>Forme juridique :</strong> entrepreneur individuel</p><p><strong>Adresse professionnelle :</strong> Place Robert Schuman, 38000 Grenoble, France</p><p><strong>SIREN :</strong> 107 430 423</p><p><strong>SIRET :</strong> 107 430 423 00015</p><p><strong>Immatriculation :</strong> Registre national des entreprises, inscription le 10 juillet 2026</p><p><strong>Activité principale :</strong> conseil pour les affaires et autres conseils de gestion</p><p><strong>Code APE :</strong> 7022Z</p><p><strong>Numéro de TVA intracommunautaire :</strong> FR51 107430423</p><p><strong>Courriel :</strong> <a href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a></p><p><strong>Téléphone professionnel :</strong> en cours d'attribution</p></div>
-        <div class="encadre-conseil"><strong>Information en cours :</strong> le numéro de téléphone professionnel sera ajouté dès son attribution.</div>
-
-        <h2>Direction de la publication</h2>
-        <p>La direction de la publication est assurée par l'entrepreneur individuel exploitant TS Bid Consulting.</p>
-
-        <h2>Nom de domaine</h2>
-        <p>Le nom de domaine bid-consulting.fr est enregistré auprès d'OVH SAS, 2 rue Kellermann, 59100 Roubaix, France. OVH intervient comme bureau d'enregistrement et prestataire technique du nom de domaine.</p>
-
-        <h2>Hébergement</h2>
-        <p>Le contenu du site est hébergé par GitHub, Inc., service GitHub Pages, 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. GitHub propose son assistance par l'intermédiaire de son <a href="https://support.github.com/" target="_blank" rel="noopener noreferrer">centre de support</a>.</p>
-
-        <h2>Objet du site</h2>
-        <p>Le site présente des prestations destinées aux professionnels : création de sites vitrines, conception de fichiers de chiffrage personnalisés, analyse des coûts, de la marge et de la rentabilité, ingénierie d'affaires et création d'outils d'aide à la décision.</p>
-        <p>Les informations publiées ont une fonction commerciale et informative. Le contenu exact d'une prestation, son délai et son prix sont confirmés par un devis.</p>
-
-        <h2>Propriété intellectuelle</h2>
-        <p>Les textes, la structure, les éléments graphiques, les modèles, les méthodes, les fichiers et les outils créés par TS Bid Consulting sont protégés par les règles applicables à la propriété intellectuelle. Toute reproduction, adaptation, diffusion ou exploitation commerciale nécessite une autorisation écrite préalable.</p>
-        <p>Le client qui fournit des textes, images, marques, données ou documents garantit qu'il possède les droits nécessaires à leur utilisation et à leur publication.</p>
-
-        <h2>Responsabilité</h2>
-        <p>TS Bid Consulting s'efforce de publier des informations exactes et à jour. La disponibilité permanente du site ne peut toutefois pas être garantie, notamment en cas de maintenance, d'incident technique, d'interruption du réseau ou de défaillance d'un prestataire extérieur.</p>
-        <p>Les simulations, estimations et exemples restent illustratifs. Une décision commerciale, technique, fiscale, comptable ou financière appartient au client, à partir de ses propres données et contrôles.</p>
-
-        <h2>Annulation d'un site vitrine et achat du nom de domaine</h2>
-        <p>Le client peut annuler la commande par courrier électronique tant que le nom de domaine n'a pas été validé par écrit et que son prix d'achat n'a pas été payé. Les travaux déjà réalisés, les achats autorisés et les frais de tiers déjà engagés restent dus.</p>
-        <p>Après validation écrite et paiement du nom de domaine, la commande devient ferme, sous réserve des droits impératifs prévus par la loi et d'un manquement grave de TS Bid Consulting. Le coût d'un nom de domaine effectivement acheté n'est pas remboursable. Les conditions complètes figurent dans les <a href="documents/CGV_B2B_Bid_Consulting.pdf" target="_blank" rel="noopener">CGV B2B</a> et dans le devis accepté.</p>
-
-        <h2>Données personnelles</h2>
-        <p>Le formulaire de contact prépare un courrier électronique dans la messagerie de l'utilisateur. Les informations ne sont pas enregistrées dans une base de données du site. Les données reçues par courrier électronique sont utilisées pour répondre à la demande, préciser le besoin, établir un devis et suivre la relation commerciale.</p>
-        <p>Les droits d'accès, de rectification, d'effacement, de limitation ou d'opposition peuvent être exercés à <a href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a>, sous réserve des obligations légales de conservation. Une réclamation peut également être adressée à la CNIL.</p>
-
-        <h2>Mesure d'audience</h2>
-        <p>Le site utilise GoatCounter pour obtenir des statistiques de fréquentation. Aucun traceur publicitaire n'est installé par TS Bid Consulting. Les prestataires techniques peuvent traiter des journaux de connexion nécessaires au fonctionnement et à la sécurité du site.</p>
-
-        <h2>Droit applicable</h2>
-        <p>Le site et les prestations de TS Bid Consulting sont soumis au droit français. Les parties recherchent en priorité une solution amiable avant toute procédure.</p>
-
-        <h2>Contact</h2>
-        <p>Pour toute question concernant le site, une prestation ou les données personnelles, écrivez à <a href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a>.</p>
-      </div></section>
+  <body>
+    <main>
+      <div class="marque">Bid <span>Consulting</span></div>
+      <div class="statut">Maintenance en cours</div>
+      <h1>Le site revient très bientôt.</h1>
+      <p>Nous remettons l’outil sur l’établi pour l’ajuster et le rendre plus solide.</p>
+      <p>Merci de votre patience.</p>
+      <p class="contact">Une demande urgente ? Écrivez à <a href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a></p>
     </main>
-
-    <footer class="pied"><div class="conteneur pied__inner"><p>Bid Consulting · Chiffrage, rentabilité et outils métier.</p><a class="pied__email" href="mailto:contact@bid-consulting.fr">contact@bid-consulting.fr</a><nav class="pied__nav" aria-label="Navigation secondaire"><a href="index.html">Accueil</a><a href="contact.html">Contact</a><a href="documents/CGV_B2B_Bid_Consulting.pdf" target="_blank" rel="noopener">CGV B2B</a><a href="mentions-legales.html" aria-current="page">Mentions légales</a></nav></div></footer>
   </body>
 </html>
