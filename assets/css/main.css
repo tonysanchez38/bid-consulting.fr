@@ -396,3 +396,8 @@ fieldset legend { padding: 0 .4rem; }
 .pied__linkedin { display: inline-flex; align-items: center; gap: .4rem; color: var(--bleu); font-size: .78rem; }
 .pied__linkedin svg { width: 15px; height: 15px; fill: currentColor; }
 .pied__linkedin:hover { text-decoration: underline; }
+
+/* Contacts du pied de page mis en avant */
+.pied__email, .pied__linkedin { display: inline-flex; align-items: center; gap: .5rem; color: var(--bleu); font-size: 1rem; font-weight: 600; }
+.pied__email svg, .pied__linkedin svg { width: 20px; height: 20px; fill: currentColor; flex: 0 0 auto; }
+.pied__email:hover, .pied__linkedin:hover { color: #fff; text-decoration: none; }
