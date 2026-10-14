@@ -4,7 +4,7 @@
 
 ## Offres
 
-- [Contre-chiffrage](https://www.bid-consulting.fr/contre-chiffrage.html) : vérification d'un devis avant envoi. Note de deux pages (oublis chiffrés, coefficient réel, prix plancher, marge de négociation, clauses à risque) et avis Go / No Go. Express 190 € (affaire de moins de 30 000 €, 72 h ouvrées), Standard 390 € (30 000 à 150 000 €, 5 jours ouvrés), chiffrage externalisé d'un lot 590 €, carnet de 5 contre-chiffrages 1 750 €.
+- [Audit de chiffrage](https://www.bid-consulting.fr/audit-chiffrage.html) : vérification d'un devis avant envoi. Note de deux pages (oublis chiffrés, coefficient réel, prix plancher, marge de négociation, clauses à risque) et avis Go / No Go. Express 190 € (affaire de moins de 30 000 €, 72 h ouvrées), Standard 390 € (30 000 à 150 000 €, 5 jours ouvrés), chiffrage externalisé d'un lot 590 €, carnet de 5 audits de chiffrage 1 750 €.
 - [Marchés publics pour TPE et PME](https://www.bid-consulting.fr/marches-publics-tpe.html) : Go / No Go 149 € (48 h ouvrées), Pack Dépôt 790 €, Pack Complet 1 190 €, Pack Groupement 1 490 €, Veille qualifiée 69 € par mois sans engagement. Le client reste candidat, signataire et titulaire du marché.
 - [Outils de chiffrage](https://www.bid-consulting.fr/outil-chiffrage-artisan.html) : fichiers Excel personnalisés. Modèle standard 49 €, Base 149 €, Rentabilité 249 €, Rentabilité et nomenclature 349 €.
 

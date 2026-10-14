@@ -1,7 +1,7 @@
 {
   "name": "Bid Consulting",
   "short_name": "Bid Consulting",
-  "description": "Contre-chiffrage, marchés publics et outils de chiffrage pour TPE et PME.",
+  "description": "Audit de chiffrage, marchés publics et outils de chiffrage pour TPE et PME.",
   "lang": "fr",
   "start_url": "/",
   "display": "browser",
