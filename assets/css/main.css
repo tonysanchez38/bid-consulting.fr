@@ -391,3 +391,8 @@ fieldset legend { padding: 0 .4rem; }
 .bandeau--devise .bandeau__inner { min-height: 84px; }
 .bandeau--devise p { color: var(--encre); font-size: .95rem; letter-spacing: .09em; }
 .bandeau--devise .bandeau__accent { color: var(--bleu); }
+
+/* Lien LinkedIn du pied de page */
+.pied__linkedin { display: inline-flex; align-items: center; gap: .4rem; color: var(--bleu); font-size: .78rem; }
+.pied__linkedin svg { width: 15px; height: 15px; fill: currentColor; }
+.pied__linkedin:hover { text-decoration: underline; }
