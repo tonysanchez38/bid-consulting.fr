@@ -18,3 +18,11 @@ Site officiel de [Bid Consulting](https://www.bid-consulting.fr/) : contre-chiff
 - `documents/CGV_B2B_Bid_Consulting.pdf` : CGV B2B, version du 14 octobre 2026.
 
 Le site est statique, sans collecte de données par un formulaire hébergé. Les demandes de contact sont préparées dans la messagerie du visiteur.
+
+## Référencement
+
+- Balises `<head>` homogènes : titre de moins de 60 caractères, description de 140 à 160 caractères, canonical, Open Graph et Twitter Card sur chaque page indexable ;
+- Données structurées JSON-LD : ProfessionalService (adresse, zone d'intervention Grenoble, Isère, Auvergne-Rhône-Alpes, France), WebSite, WebPage, BreadcrumbList, Service avec offres, Article et FAQPage ;
+- Icônes : `favicon.ico`, favicon SVG et PNG, `apple-touch-icon.png`, `site.webmanifest` ;
+- Image de partage optimisée : `assets/img/og-bid-consulting.jpg` (1200 x 630) ;
+- `llms.txt` : résumé des offres pour les assistants de recherche.

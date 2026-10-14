@@ -1,0 +1,20 @@
+# Bid Consulting
+
+> Bid Consulting (TS Bid Consulting, entreprise individuelle, Grenoble, Isère) vérifie et construit les prix des TPE et PME avant la remise de leurs offres, et prépare leurs réponses aux marchés publics. Intervention à distance dans toute la France. Tarifs hors taxes, TVA non applicable (article 293 B du CGI).
+
+## Offres
+
+- [Contre-chiffrage](https://www.bid-consulting.fr/contre-chiffrage.html) : vérification d'un devis avant envoi. Note de deux pages (oublis chiffrés, coefficient réel, prix plancher, marge de négociation, clauses à risque) et avis Go / No Go. Express 190 € (affaire de moins de 30 000 €, 72 h ouvrées), Standard 390 € (30 000 à 150 000 €, 5 jours ouvrés), chiffrage externalisé d'un lot 590 €, carnet de 5 contre-chiffrages 1 750 €.
+- [Marchés publics pour TPE et PME](https://www.bid-consulting.fr/marches-publics-tpe.html) : Go / No Go 149 € (48 h ouvrées), Pack Dépôt 790 €, Pack Complet 1 190 €, Pack Groupement 1 490 €, Veille qualifiée 69 € par mois sans engagement. Le client reste candidat, signataire et titulaire du marché.
+- [Outils de chiffrage](https://www.bid-consulting.fr/outil-chiffrage-artisan.html) : fichiers Excel personnalisés. Modèle standard 49 €, Base 149 €, Rentabilité 249 €, Rentabilité et nomenclature 349 €.
+
+## Guides
+
+- [Analyser la rentabilité d'un chantier](https://www.bid-consulting.fr/analyse-rentabilite-chantier.html)
+- [Calculer un prix de vente cohérent](https://www.bid-consulting.fr/calcul-prix-vente-artisan.html)
+
+## Informations
+
+- [Contact](https://www.bid-consulting.fr/contact.html) : contact@bid-consulting.fr, réponse sous 48 h ouvrées.
+- [Conditions générales de vente B2B](https://www.bid-consulting.fr/documents/CGV_B2B_Bid_Consulting.pdf)
+- [Mentions légales](https://www.bid-consulting.fr/mentions-legales.html)
