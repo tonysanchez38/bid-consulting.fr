@@ -373,3 +373,16 @@ fieldset legend { padding: 0 .4rem; }
   .pilotage { padding: 1rem; }
   .prix strong { font-size: 1.8rem; }
 }
+
+/* Offres 2026-10 : statut de vigilance, grilles complémentaires */
+.statut--vigilance { border-color: rgba(251,191,36,.5); color: var(--ambre); background: rgba(251,191,36,.08); }
+.offres-annexes { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2.5rem; }
+.offres-annexes .offre-cible { margin-top: 0; grid-template-columns: 1fr; }
+.offres-annexes .offre-cible .tarif { min-width: 0; }
+.comparatif-offres--espace { margin-bottom: 5rem; }
+.delais { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; margin: 2rem 0; }
+.delais p { display: grid; gap: .25rem; margin: 0; padding: 1rem; border: 1px solid var(--bordure); border-radius: 10px; background: rgba(15,23,42,.45); }
+.delais strong { color: var(--encre); font: 750 1.35rem/1.1 ui-monospace, Consolas, monospace; }
+.delais span { color: var(--texte); font-size: .8rem; }
+@media (max-width: 960px) { .delais { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 760px) { .offres-annexes, .delais { grid-template-columns: 1fr; } }
