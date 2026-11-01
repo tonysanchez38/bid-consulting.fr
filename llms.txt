@@ -1,12 +1,19 @@
 # Bid Consulting
 
-> Bid Consulting (TS Bid Consulting, entreprise individuelle, Grenoble, Isère) vérifie et construit les prix des TPE et PME avant la remise de leurs offres, et prépare leurs réponses aux marchés publics. Intervention à distance dans toute la France. Tarifs hors taxes, TVA non applicable (article 293 B du CGI).
+> Bid Consulting (TS Bid Consulting, entreprise individuelle, Grenoble, Isère) apporte aux TPE et PME la méthode de chiffrage des projets industriels : vérification du prix avant la remise de l'offre, préparation des réponses aux marchés publics et outils de chiffrage personnalisés. Intervention à distance dans toute la France. Tarifs hors taxes, TVA non applicable (article 293 B du CGI).
+
+Devise : Chiffrer juste. Répondre mieux. Décider en connaissance de cause. Chaque verbe correspond à une offre.
+
+## Positionnement
+
+- [Approche](https://www.bid-consulting.fr/approche.html) : Bid Consulting contrôle le prix du côté de l'entreprise qui le remet, et non du côté du client qui le reçoit. Canevas stratégique comparé au logiciel de devis et au cabinet d'appels d'offres, grille Éliminer / Réduire / Renforcer / Créer, méthode en cinq étapes (chiffrer, consolider, valoriser, analyser, décider), engagements.
 
 ## Offres
 
-- [Audit de chiffrage](https://www.bid-consulting.fr/audit-chiffrage.html) : vérification d'un devis avant envoi. Note de deux pages (oublis chiffrés, coefficient réel, prix plancher, marge de négociation, clauses à risque) et avis Go / No Go. Express 190 € (affaire de moins de 30 000 €, 72 h ouvrées), Standard 390 € (30 000 à 150 000 €, 5 jours ouvrés), chiffrage externalisé d'un lot 590 €, carnet de 5 audits de chiffrage 1 750 €.
-- [Marchés publics pour TPE et PME](https://www.bid-consulting.fr/marches-publics-tpe.html) : Go / No Go 149 € (48 h ouvrées), Pack Dépôt 790 €, Pack Complet 1 190 €, Pack Groupement 1 490 €, Veille qualifiée 69 € par mois sans engagement. Le client reste candidat, signataire et titulaire du marché.
-- [Outils de chiffrage](https://www.bid-consulting.fr/outil-chiffrage-artisan.html) : fichiers Excel personnalisés. Modèle standard 49 €, Base 149 €, Rentabilité 249 €, Rentabilité et nomenclature 349 €.
+- [Audit de chiffrage](https://www.bid-consulting.fr/audit-chiffrage.html) (Chiffrer juste) : note de deux pages (oublis chiffrés, coefficient réel, prix plancher, marge de négociation, clauses à risque) et avis Go / No Go. Express 190 € (moins de 30 000 €, 72 h ouvrées), Standard 390 € (30 000 à 150 000 €, 5 jours ouvrés), chiffrage externalisé d'un lot 590 € (7 jours ouvrés), carnet de 5 audits Standard 1 750 €.
+- [Marchés publics pour TPE et PME](https://www.bid-consulting.fr/marches-publics-tpe.html) (Répondre mieux) : Go / No Go 149 € (48 h ouvrées), Pack Dépôt 790 €, Pack Complet 1 190 €, Pack Groupement 1 490 €, Veille qualifiée 69 € par mois sans engagement. Le client reste candidat, signataire et titulaire du marché.
+- [Outils de chiffrage](https://www.bid-consulting.fr/outil-chiffrage-artisan.html) (Décider en connaissance de cause) : fichiers Excel. Modèle standard 49 €, Base 149 €, Rentabilité 249 €, Rentabilité et nomenclature 349 €.
+- [Tous les tarifs](https://www.bid-consulting.fr/tarifs.html) : grille complète sur une page.
 
 ## Guides
 
