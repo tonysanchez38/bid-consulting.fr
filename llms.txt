@@ -4,9 +4,9 @@
 
 Devise : Chiffrer juste. Répondre mieux. Décider en connaissance de cause. Chaque verbe correspond à une offre.
 
-## Positionnement
+## Méthode
 
-- [Approche](https://www.bid-consulting.fr/approche.html) : Bid Consulting contrôle le prix du côté de l'entreprise qui le remet, et non du côté du client qui le reçoit. Canevas stratégique comparé au logiciel de devis et au cabinet d'appels d'offres, grille Éliminer / Réduire / Renforcer / Créer, méthode en cinq étapes (chiffrer, consolider, valoriser, analyser, décider), outil de chiffrage conçu par Bid Consulting pour des affaires de tuyauterie industrielle (chaîne cadrer, quantifier, sourcer, valoriser, protéger, décider ; 17 contrôles de cohérence, 11 critères d'influence sur la marge, 10 scénarios de négociation, 7 critères de risque), engagements. Aucune donnée d'entreprise n'est publiée.
+- [Méthode](https://www.bid-consulting.fr/approche.html) : méthode de chiffrage des projets industriels mise au service des TPE et PME, appuyée sur un outil conçu par Bid Consulting (cadrer, quantifier, sourcer, valoriser, protéger, décider ; 17 contrôles de cohérence, 11 critères qui construisent la marge, 10 scénarios de négociation, 7 critères de risque). Six gains : justesse, fiabilité, rapidité, efficacité, standardisation, marge protégée. Aucune donnée d'entreprise n'est publiée ni réutilisée.
 
 ## Offres
 

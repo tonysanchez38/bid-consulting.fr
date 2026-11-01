@@ -17,7 +17,7 @@ Le site suit la devise : chaque verbe correspond à une offre.
 - `audit-chiffrage.html` : Chiffrer juste ;
 - `marches-publics-tpe.html` : Répondre mieux ;
 - `outil-chiffrage-artisan.html` : Décider en connaissance de cause ;
-- `approche.html` : positionnement (canevas stratégique, grille Éliminer / Réduire / Renforcer / Créer), méthode, profil, engagements, FAQ générale ;
+- `approche.html` (Méthode) : outil de chiffrage en six étapes, six gains, grille océan bleu formulée en gestes positifs, profil, engagements, FAQ générale ;
 - `tarifs.html` : tous les prix sur une page (catalogue d'offres en JSON-LD) ;
 - `analyse-rentabilite-chantier.html`, `calcul-prix-vente-artisan.html` : guides ;
 - `contre-chiffrage.html`, `site-vitrine-artisan.html` : anciennes URL, redirection, non indexées ;
