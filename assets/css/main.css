@@ -540,3 +540,20 @@ fieldset legend { padding: 0 .4rem; }
 }
 .service-hero h1.h1--long { font-size: clamp(2.3rem, 4.3vw, 3.9rem); }
 @media (max-width: 760px) { .tableau-tarifs td[data-label]::before { font-family: var(--font); font-weight: 500; letter-spacing: 0; } }
+
+/* Approche : chaîne de l'outil de chiffrage */
+.chaine { display: grid; grid-template-columns: repeat(6,1fr); gap: .8rem; margin: 0 0 2rem; padding: 0; list-style: none; counter-reset: none; }
+.chaine li { position: relative; padding: 1.3rem 1.1rem; border: 1px solid var(--bordure); border-radius: var(--radius-sm); background: rgba(15,23,42,.55); }
+.chaine li:not(:last-child)::after { content: "→"; position: absolute; right: -.75rem; top: 1.45rem; z-index: 1; color: var(--bleu); font-weight: 800; }
+.chaine li > span { display: grid; place-items: center; width: 30px; height: 30px; margin-bottom: .8rem; border: 1px solid rgba(56,189,248,.4); border-radius: 50%; color: var(--bleu); font: 700 .75rem ui-monospace, monospace; }
+.chaine h3 { margin: 0 0 .4rem; font-size: 1rem; }
+.chaine p { margin: 0; font-size: .8rem; line-height: 1.5; }
+.chaine li:last-child { border-color: var(--bleu); background: var(--bleu-voile); }
+.delais--outil { margin: 0 0 2rem; }
+.delais--outil strong { color: var(--bleu); font-size: 2rem; }
+#outil .grille-problemes { margin-bottom: 1rem; }
+.outil-lien { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; padding: 2rem; border: 1px solid rgba(56,189,248,.4); border-radius: var(--radius); background: linear-gradient(150deg, rgba(30,41,59,.98), rgba(19,29,47,.98)); }
+.outil-lien h2 { margin: .4rem 0 .6rem; font-size: clamp(1.5rem,3vw,2.1rem); }
+.outil-lien p:last-child { margin: 0; }
+@media (max-width: 1100px) { .chaine { grid-template-columns: repeat(3,1fr); } .chaine li:nth-child(3)::after { display: none; } }
+@media (max-width: 760px) { .chaine { grid-template-columns: 1fr; } .chaine li::after { display: none; } .outil-lien { grid-template-columns: 1fr; } }
