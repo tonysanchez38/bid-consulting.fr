@@ -21,7 +21,7 @@ Le site suit la devise : chaque verbe correspond à une offre.
 - `tarifs.html` : tous les prix sur une page (catalogue d'offres en JSON-LD) ;
 - `analyse-rentabilite-chantier.html`, `calcul-prix-vente-artisan.html` : guides ;
 - `contre-chiffrage.html`, `site-vitrine-artisan.html` : anciennes URL, redirection, non indexées ;
-- `documents/CGV_B2B_Bid_Consulting.pdf` : CGV B2B, version du 14 octobre 2026.
+- `documents/CGV_B2B_Bid_Consulting.pdf` : CGV B2B, version du 1er novembre 2026.
 
 En-tête et pied de page sont identiques sur toutes les pages.
 
