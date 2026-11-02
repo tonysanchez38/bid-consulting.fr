@@ -6,7 +6,7 @@ Devise : Chiffrer juste. Répondre mieux. Décider en connaissance de cause. Cha
 
 ## Méthode
 
-- [Méthode](https://www.bid-consulting.fr/approche.html) : méthode de chiffrage des projets industriels mise au service des TPE et PME, appuyée sur un outil conçu par Bid Consulting (cadrer, quantifier, sourcer, valoriser, protéger, décider ; 17 contrôles de cohérence, 11 critères qui construisent la marge, 10 scénarios de négociation, 7 critères de risque). Six gains : justesse, fiabilité, rapidité, efficacité, standardisation, marge protégée. Aucune donnée d'entreprise n'est publiée ni réutilisée.
+- [Méthode](https://www.bid-consulting.fr/approche.html) : méthode de chiffrage des projets industriels mise au service des TPE et PME, appuyée sur un outil conçu par Bid Consulting (cadrer, quantifier, sourcer, valoriser, protéger, décider ; 17 contrôles de cohérence, 11 critères qui construisent la marge, 10 scénarios de négociation, 7 critères de risque). Cas concret fictif : une citerne de 10 m³ chiffrée de façon globale puis par fourniture. Six gains : justesse, fiabilité, rapidité, efficacité, standardisation, marge protégée. Aucune donnée d'entreprise n'est publiée ni réutilisée.
 
 ## Offres
 
@@ -19,6 +19,7 @@ Devise : Chiffrer juste. Répondre mieux. Décider en connaissance de cause. Cha
 
 - [Analyser la rentabilité d'un chantier](https://www.bid-consulting.fr/analyse-rentabilite-chantier.html)
 - [Calculer un prix de vente cohérent](https://www.bid-consulting.fr/calcul-prix-vente-artisan.html)
+- [Chiffrer un ouvrage de chaudronnerie, poste par poste](https://www.bid-consulting.fr/chiffrage-chaudronnerie.html) : gamme de fabrication, postes propres aux appareils à pression (DESP, CODAP, soudeurs qualifiés, DMOS, contrôles, épreuve), taux par qualification, coefficient de vente.
 
 ## Informations
 

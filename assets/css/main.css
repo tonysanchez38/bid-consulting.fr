@@ -632,3 +632,7 @@ fieldset legend { padding: 0 .4rem; }
 .aa-crit__total span, .aa-crit__total b { color: var(--bleu) !important; font-weight: 750; }
 @media (max-width: 960px) { .avant-apres { grid-template-columns: 1fr; } .aa__fleche { justify-self: center; transform: rotate(90deg); } .aa-detail__grille { grid-template-columns: 1fr; } }
 @media (max-width: 760px) { .aa-bilan { grid-template-columns: 1fr; } .aa { padding: 1.3rem; } .aa__etapes li { grid-template-columns: 28px 1fr; } .aa__etapes strong { grid-column: 2; } .aa__prix strong { font-size: 1.6rem; } }
+.chaine--cinq { grid-template-columns: repeat(5,1fr); }
+.outil-note a { color: var(--bleu); font-weight: 700; }
+@media (max-width: 1100px) { .chaine--cinq { grid-template-columns: 1fr 1fr; } .chaine--cinq li::after { display: none; } }
+@media (max-width: 760px) { .chaine--cinq { grid-template-columns: 1fr; } }

@@ -19,7 +19,7 @@ Le site suit la devise : chaque verbe correspond à une offre.
 - `outil-chiffrage-artisan.html` : Décider en connaissance de cause ;
 - `approche.html` (Méthode) : outil de chiffrage en six étapes, six gains, grille océan bleu formulée en gestes positifs, profil, engagements, FAQ générale ;
 - `tarifs.html` : tous les prix sur une page (catalogue d'offres en JSON-LD) ;
-- `analyse-rentabilite-chantier.html`, `calcul-prix-vente-artisan.html` : guides ;
+- `analyse-rentabilite-chantier.html`, `calcul-prix-vente-artisan.html`, `chiffrage-chaudronnerie.html` : guides ;
 - `contre-chiffrage.html`, `site-vitrine-artisan.html` : anciennes URL, redirection, non indexées ;
 - `documents/CGV_B2B_Bid_Consulting.pdf` : CGV B2B, version du 1er novembre 2026.
 
